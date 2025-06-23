@@ -1,0 +1,55 @@
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+}
+
+.box{
+    display: none;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.rolling img {
+  height: 250px; /* or more */
+  width: 250px;
+  border-radius: 10px;
+}
+
+.rolling {
+  display: none;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.rolling img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+.btn{
+    height: 40px;
+  width: 160px;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.btn:hover{
+box-shadow: 0 6px 20px rgba(0, 242, 254, 0.6);
+}
+
