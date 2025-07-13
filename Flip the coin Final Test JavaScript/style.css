@@ -1,0 +1,29 @@
+body{
+    padding-top: 100px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.container{
+    margin: auto;
+    border: 1px black solid;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.coinsImg img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+}
