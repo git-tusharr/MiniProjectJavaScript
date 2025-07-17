@@ -7,7 +7,6 @@ let rollDice = () => {
   let box6 = document.querySelector(".box6");
   let rollingGif = document.querySelector(".rolling");
 
-
   box1.style.display = "none";
   box2.style.display = "none";
   box3.style.display = "none";
